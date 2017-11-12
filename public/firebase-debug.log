@@ -1,0 +1,42 @@
+[debug] [2017-11-12T03:02:19.924Z] ----------------------------------------------------------------------
+[debug] [2017-11-12T03:02:19.930Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ingca\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-11-12T03:02:19.931Z] CLI Version:   3.15.0
+[debug] [2017-11-12T03:02:19.931Z] Platform:      win32
+[debug] [2017-11-12T03:02:19.931Z] Node Version:  v6.11.0
+[debug] [2017-11-12T03:02:19.932Z] Time:          Sat Nov 11 2017 22:02:19 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-11-12T03:02:19.932Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-12T03:02:19.954Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-11-12T03:02:19.955Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Repositories\eldm
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-11-12T03:02:27.233Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Nov 11 2017 22:02:27 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-11-12T03:02:30.419Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2017-11-12T03:04:06.265Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ Sat Nov 11 2017 22:04:06 GMT-0500 (SA Pacific Standard Time)
+[debug] [2017-11-12T03:04:06.517Z] <<< HTTP RESPONSE 200
+[info] i  Skipping write of public/index.html
